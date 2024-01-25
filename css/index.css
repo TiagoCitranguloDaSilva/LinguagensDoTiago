@@ -1,0 +1,30 @@
+
+
+#sobre{
+    background-color: blue;
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 0 0 12px 12px;
+    background-color: rgb(218, 255, 218);
+    border: 1px solid rgba(0, 54, 0, 0.382);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre h1, #sobre h2{
+    text-align: center;
+}
+
+#sobre h2{
+    font-size: .8em;
+}
+
+p{
+    text-indent: 50px;
+    font-size: 1.1em;
+}
