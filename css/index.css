@@ -1,11 +1,17 @@
+body{
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
 
+main{
+    display: flex;
+    justify-content: center;
+}
 
 #sobre{
     background-color: blue;
-    width: 70%;
-    max-width: 900px;
-    margin: auto;
-    padding: 40px;
+    max-width: 800px;
+    padding: 0 50px 30px 50px;
     border-radius: 0 0 12px 12px;
     background-color: rgb(218, 255, 218);
     border: 1px solid rgba(0, 54, 0, 0.382);
@@ -14,6 +20,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: justify;
+    height: min-content;
 }
 
 #sobre h1, #sobre h2{
@@ -24,7 +32,11 @@
     font-size: .8em;
 }
 
-p{
+#sobre p{
     text-indent: 50px;
     font-size: 1.1em;
+}
+
+#sobre p, #sobre h1, #sobre h2{
+    margin: 20px 0;
 }

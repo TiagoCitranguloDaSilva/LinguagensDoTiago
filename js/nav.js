@@ -1,6 +1,5 @@
 function nav(destiny){
-    let path = document.location.pathname
-    if(path != "\\index.php"){
+    if(document.title != "HOME"){
         document.location.replace("../" + destiny)
     }else{
         document.location.replace(destiny)
@@ -8,5 +7,5 @@ function nav(destiny){
 }
 
 function pageName(name){
-    document.getElementById('nomePagina').innerText = name;
+    document.getElementById('nomePagina').children[0].innerText = name;
 }
