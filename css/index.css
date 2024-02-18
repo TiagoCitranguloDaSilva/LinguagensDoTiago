@@ -1,7 +1,4 @@
-body{
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
-}
+
 
 main{
     display: flex;
@@ -9,7 +6,6 @@ main{
 }
 
 #sobre{
-    background-color: blue;
     max-width: 800px;
     padding: 0 50px 30px 50px;
     border-radius: 0 0 12px 12px;

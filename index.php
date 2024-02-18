@@ -11,12 +11,17 @@
     <link rel="stylesheet" href="css/menu.css">
     
 </head>
-<body onload="pageName('Pagina Inicial')">
-    <?php 
-
-        include_once("html/menu.html");
-
-    ?>
+<body>
+    <header>
+        <div id="nomePagina">
+            <h1>Página inicial</h1>
+        </div>
+        <nav>
+            <div class="navOpt"><button onclick="nav('')">HOME</button></div>
+            <div class="navOpt"><button onclick="nav('php/linguagens.php')">LINGUAGENS</button></div>
+            <div class="navOpt"><button onclick="nav('html/contato.html')">CONTATO</button></div>
+        </nav>
+    </header>
     <main>
         <div id="sobre">
             <div id="textoSobre">
@@ -29,11 +34,12 @@
             </div>
         </div>
     </main>
-    <?php
+    <footer>
+        <p>Site desenvolvido por &copy;<span>Tiago Citrangulo da Silva</span></p>
+        <p>E-mail de <a href="mailto:tiagocitrangulo256@gmail.com" target="_blank">contato</a></p>
+        <p>Repositório <a href="https://github.com/tiagocitrangulodasilva" target="_blank">GitHub</a></p>
+    </footer>
 
-        include_once("html/rodape.html")
-
-    ?>
-
+    <script src="js/nav.js"></script>
 </body>
 </html>
