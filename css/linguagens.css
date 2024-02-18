@@ -60,3 +60,29 @@ main{
 #textoLinguagemContainer{
     display: none;
 }
+
+#linguagemTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: darkgreen;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+}
+
+code{
+    background-color: rgb(244, 255, 253);
+    width: 90%;
+    height: min-content;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: inset -3px -3px 5px rgba(0, 0, 0, .08), inset 3px 3px 5px rgba(0, 0, 0, .08);;
+    display: block;
+    font-size: 1.1em;
+    margin: 20px auto;
+}
+
+hr{
+    border-color: #0080003c;
+}
